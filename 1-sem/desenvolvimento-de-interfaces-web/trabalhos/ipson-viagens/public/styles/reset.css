@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+}
+
+button {
+  font-family: "Ubuntu", sans-serif;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  font-family: "Ubuntu", sans-serif;
+
+  position: relative;
+  background: url(../assets/icons/ico_arrow_select.png) calc(100% - 10px) center
+    no-repeat #fff;
+  padding: var(--spacing-1);
+  border-radius: 10px;
+  border: 2px solid #aeaeae;
+  color: #505050;
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size);
+
+  cursor: pointer;
+}
+input[type="text"],
+input[type="email"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  font-family: "Ubuntu", sans-serif;
+
+  position: relative;
+  padding: var(--spacing-1);
+  border-radius: 5px;
+  border: 1px solid var(--gray-color);
+  color: var(--gray-color);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size);
+}
+textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  font-family: "Ubuntu", sans-serif;
+
+  position: relative;
+  padding: var(--spacing-1);
+  border-radius: 5px;
+  border: 1px solid var(--gray-color);
+  color: var(--gray-color);
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size);
+  resize: vertical;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Ubuntu", sans-serif;
+  color: var(--gray-color);
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}

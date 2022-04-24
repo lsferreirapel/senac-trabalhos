@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="public/favicon.svg" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="public/styles/reset.css" />
+    <link rel="stylesheet" href="public/styles/index.css" />
+    <title>Ipson Viagens</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <img src="public/assets/logoipsum-logo.svg" alt="Logo da empresa" />
+        <input type="checkbox" id="nav-checkbox" />
+        <label for="nav-checkbox">
+          <img
+            class="hamburguer-icon"
+            src="public/assets/icons/hamburger.svg"
+            alt="Icone abrir o menu"
+            draggable="false"
+          />
+          <img
+            class="close-nav-icon"
+            src="public/assets/icons/close.svg"
+            alt="icone para fechar o menu"
+            draggable="false"
+          />
+        </label>
+        <ul class="nav-list">
+          <li><a href="#destiny">Destinos</a></li>
+          <li><a href="#travel-packages">Pacotes</a></li>
+          <li><a href="#about-us">Sobre nós</a></li>
+          <li><a href="#depoiments">Depoimentos</a></li>
+          <li><a href="#contact-us">Contato</a></li>
+        </ul>
+      </nav>
+      <section>
+        <h1 class="title">
+          Lorem ipsum dolor sit amet <br />
+          consectetur adipisicing amet elit. <br />
+          odit unde modi.
+        </h1>
+      </section>
+    </header>
+    <main>
+      <section id="destiny">
+        <h2>Conheça nossos Destinos</h2>
+        <form action="">
+          <label for="destinations"
+            >Vai para onde?
+            <select name="destinations" id="destinations">
+              <option value="0">Selecione</option>
+              <option value="1">Nassau - Bahamas</option>
+              <option value="2">Cairo - Egito</option>
+              <option value="1">Paris - França</option>
+              <option value="2">Cancún - México</option>
+              <option value="3">Orlando - EUA</option>
+              <option value="4">Lisboa - Portugal</option>
+              <option value="4">Rio de Janeiro - Brasil</option>
+            </select>
+          </label>
+          <label for="rooms"
+            >Quarto(s)
+            <select name="rooms" id="rooms">
+              <option value="1">1 Quarto</option>
+              <option value="2">2 Quartos</option>
+              <option value="3">3 Quartos</option>
+              <option value="4">4 Quartos</option>
+              <option value="5">5 Quartos</option>
+              <option value="6">6 Quartos</option>
+              <option value="7">7 Quartos</option>
+              <option value="8">8 Quartos</option>
+              <option value="9">9 Quartos</option>
+              <option value="10">10 Quartos</option>
+            </select>
+          </label>
+          <label for="guests"
+            >Hóspede(s)
+            <select name="guests" id="guests">
+              <option value="1">1 Hóspede</option>
+              <option value="2">2 Hóspedes</option>
+              <option value="3">3 Hóspedes</option>
+              <option value="4">4 Hóspedes</option>
+              <option value="5">5 Hóspedes</option>
+              <option value="6">6 Hóspedes</option>
+              <option value="7">7 Hóspedes</option>
+              <option value="8">8 Hóspedes</option>
+              <option value="9">9 Hóspedes</option>
+              <option value="10">10 Hóspedes</option>
+              <option value="11">11 Hóspedes</option>
+              <option value="12">12 Hóspedes</option>
+            </select>
+          </label>
+          <button>Buscar</button>
+        </form>
+      </section>
+      <section id="destiny-results">
+        <ul>
+          <li>
+            <img
+              src="public/assets/images/trips/bahamas.jpg"
+              alt="Foto de uma praia em Nassau"
+            />
+            <h3>Viagem para Nassau (Bahamas) - 2022</h3>
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <ul class="destiny-features">
+              <li>Lorem ipsum dolor</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum dolor sit</li>
+            </ul>
+            <div class="price-container">
+              <div class="price">
+                <h4>A partir de <span>R$15.000</span></h4>
+                <h3>R$ 11.499</h3>
+                <h5>Cancelamento Grátis!</h5>
+              </div>
+              <h4 class="installment-text">
+                Em até <br />
+                12x
+              </h4>
+            </div>
+          </li>
+          <li>
+            <img
+              src="public/assets/images/trips/egypt.jpg"
+              alt="Foto das piramides do egito"
+            />
+            <h3>Viagem para Cairo (Egito) - 2022</h3>
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <ul class="destiny-features">
+              <li>Lorem ipsum dolor sit</li>
+              <li>Lorem ipsum dolor</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum dolor sit</li>
+            </ul>
+            <div class="price-container">
+              <div class="price">
+                <h4>A partir de <span>R$15.000</span></h4>
+                <h3>R$ 11.499</h3>
+                <h5>Cancelamento Grátis!</h5>
+              </div>
+              <h4 class="installment-text">
+                Em até <br />
+                12x
+              </h4>
+            </div>
+          </li>
+          <li>
+            <img
+              src="public/assets/images/trips/france.jpg"
+              alt="Foto de Paris"
+            />
+            <h3>Viagem para Paris (França) - 2022</h3>
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <ul class="destiny-features">
+              <li>Lorem ipsum dolor sit</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+            </ul>
+            <div class="price-container">
+              <div class="price">
+                <h4>A partir de <span>R$15.000</span></h4>
+                <h3>R$ 11.499</h3>
+                <h5>Cancelamento Grátis!</h5>
+              </div>
+              <h4 class="installment-text">
+                Em até <br />
+                12x
+              </h4>
+            </div>
+          </li>
+          <li>
+            <img
+              src="public/assets/images/trips/mexico.jpg"
+              alt="Foto de Cancún"
+            />
+            <h3>Viagem para Cancún (Mexico) - 2022</h3>
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <ul class="destiny-features">
+              <li>Lorem ipsum dolor</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum dolor sit</li>
+            </ul>
+            <div class="price-container">
+              <div class="price">
+                <h4>A partir de</h4>
+                <h3>R$ 15.000</h3>
+                <h5>Cancelamento Grátis!</h5>
+              </div>
+              <h4 class="installment-text">
+                Em até <br />
+                12x
+              </h4>
+            </div>
+          </li>
+          <li>
+            <img
+              src="public/assets/images/trips/orlando.jpg"
+              alt="Foto de Orlando"
+            />
+            <h3>Viagem para Orlando (EUA) - 2022</h3>
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <ul class="destiny-features">
+              <li>Lorem ipsum dolor sit</li>
+              <li>Lorem ipsum dolor</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum dolor sit</li>
+            </ul>
+            <div class="price-container">
+              <div class="price">
+                <h4>A partir de <span>R$15.000</span></h4>
+                <h3>R$ 11.499</h3>
+                <h5>Cancelamento Grátis!</h5>
+              </div>
+              <h4 class="installment-text">
+                Em até <br />
+                12x
+              </h4>
+            </div>
+          </li>
+          <li>
+            <img
+              src="public/assets/images/trips/portugal.jpg"
+              alt="Foto do egito"
+            />
+            <h3>Viagem para Lisboa (Portugal) - 2022</h3>
+            <h4>Lorem ipsum dolor sit amet.</h4>
+            <ul class="destiny-features">
+              <li>Lorem ipsum dolor sit</li>
+              <li>Lorem ipsum dolor</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum dolor sit</li>
+            </ul>
+            <div class="price-container">
+              <div class="price">
+                <h4>A partir de <span>R$10.000</span></h4>
+                <h3>R$ 9.399</h3>
+                <h5>Cancelamento Grátis!</h5>
+              </div>
+              <h4 class="installment-text">
+                Em até <br />
+                12x
+              </h4>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section id="travel-packages">
+        <h2>Pacotes em destaque</h2>
+        <ul>
+          <li>
+            <img
+              src="public/assets/images/trips/rio.jpg"
+              alt="Foto do Rio de Janeiro"
+            />
+            <div class="lower-overlay"></div>
+            <div class="package-title">
+              <h4>Aéreo + <strong>6</strong> diárias</h4>
+              <h3>Rio de Janeiro +<br />Cruzeiro</h3>
+            </div>
+            <div class="package-price">
+              <h3>R$<strong>2.000</strong></h3>
+              <h4>em até <strong>30x</strong> no boleto</h4>
+            </div>
+          </li>
+          <li>
+            <img
+              src="public/assets/images/trips/spain.jpg"
+              alt="Foto da Espanha"
+            />
+            <div class="lower-overlay"></div>
+            <div class="package-title">
+              <h4>Aéreo + <strong>8</strong> diárias</h4>
+              <h3>Espanha +<br />Portugal</h3>
+            </div>
+            <div class="package-price">
+              <h3>R$<strong>4.500</strong></h3>
+              <h4>em até <strong>25x</strong> no boleto</h4>
+            </div>
+          </li>
+          <li>
+            <img
+              src="public/assets/images/trips/hawaii.jpg"
+              alt="Foto do Havai"
+            />
+            <div class="lower-overlay"></div>
+            <div class="package-title">
+              <h4>Aéreo + <strong>6</strong> diárias</h4>
+              <h3>Havai +<br />Passeio Grátis</h3>
+            </div>
+            <div class="package-price">
+              <h3>R$<strong>2.990</strong></h3>
+              <h4>em até <strong>30x</strong> no boleto</h4>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section id="about-us">
+        <div class="overlay"></div>
+        <article>
+          <h2>Conheça nossa historia!</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Dignissimos ipsa accusantium autem et blanditiis. Aperiam,
+            distinctio ullam sunt vitae non quisquam fuga. Totam eum architecto
+            placeat! Sed ab quos eum minus laboriosam! Quis, quas sequi atque
+            numquam aliquid quaerat fugit?
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Dignissimos ipsa accusantium autem et blanditiis. Aperiam,
+            distinctio ullam sunt vitae non quisquam fuga. Totam eum architecto
+            placeat! Sed ab quos eum minus laboriosam! Quis, quas sequi atque
+            numquam aliquid quaerat fugit?
+          </p>
+        </article>
+      </section>
+      <section id="depoiments">
+        <h2>Depoimentos de clientes</h2>
+        <ul>
+          <li>
+            <article>
+              <img src="public/assets/icons/quotes.png" alt="Aspas" />
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
+                commodi, quis incidunt dolores illum aspernatur vel neque ad
+                voluptatum ipsa!
+              </p>
+              <div class="user-container">
+                <img
+                  src="public/assets/icons/avatar.png"
+                  alt="Avatar do usuario"
+                />
+                <div>
+                  <h4>Lucas Ferreira</h4>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </article>
+            <img
+              src="public/assets/images/egypt-comment.jpg"
+              alt="Foto do egito"
+            />
+          </li>
+          <li>
+            <div class="divider"></div>
+            <article>
+              <img src="public/assets/icons/quotes.png" alt="Aspas" />
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
+                commodi, quis incidunt dolores illum aspernatur vel neque ad
+                voluptatum ipsa!
+              </p>
+              <div class="user-container">
+                <img
+                  src="public/assets/icons/avatar.png"
+                  alt="Avatar do usuario"
+                />
+                <div>
+                  <h4>Lucas Ferreira</h4>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </article>
+            <img
+              src="public/assets/images/rio-de-janeiro-comment.jpg"
+              alt="Foto do Rio de Janeiro"
+            />
+          </li>
+          <li>
+            <div class="divider"></div>
+            <article>
+              <img src="public/assets/icons/quotes.png" alt="Aspas" />
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore
+                commodi, quis incidunt dolores illum aspernatur vel neque ad
+                voluptatum ipsa!
+              </p>
+              <div class="user-container">
+                <img
+                  src="public/assets/icons/avatar.png"
+                  alt="Avatar do usuario"
+                />
+                <div>
+                  <h4>Lucas Ferreira</h4>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </div>
+              </div>
+            </article>
+            <img
+              src="public/assets/images/eiffel-tower-comment.jpg"
+              alt="Foto da Torre Eiffel"
+            />
+          </li>
+        </ul>
+      </section>
+      <section id="contact-us">
+        <h2>Entre com contato</h2>
+        <form action="#">
+          <div>
+            <label for="first-name"
+              >Nome:
+              <input placeholder="Ex. Fulano" type="text" id="first-name" />
+            </label>
+            <label for="last-name"
+              >Sobrenome:
+              <input placeholder="Ex. De Tal" type="text" id="last-name" />
+            </label>
+          </div>
+          <label for="email"
+            >Email:
+            <input placeholder="Ex. seu@email.com" type="email" id="email" />
+          </label>
+          <label for="message"
+            >Sua mensagem:
+            <textarea
+              placeholder="Escreva aqui..."
+              id="message"
+              cols="30"
+              rows="5"
+            ></textarea>
+          </label>
+          <button>Enviar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <section id="footer-description">
+          <img src="public/assets/logoipsum-logo.svg" alt="Logo" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+            ducimus alias atque quas, totam dolorem.
+          </p>
+        </section>
+        <section id="footer-working-hours">
+          <h3>Horario de funcionamento</h3>
+          <p>De <strong>8:00</strong> às <strong>18:00</strong> horas.</p>
+        </section>
+        <adress id="footer-adress">
+          <h3>Nosso endereço</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, nemo?
+          </p>
+        </adress>
+        <section id="footer-call-us">
+          <h3>Telefones para contato</h3>
+          <p>(53) 9 9123-4567</p>
+          <p>(53) 9 3212-3456</p>
+        </section>
+      </div>
+      <div class="divider"></div>
+      <section id="copy">
+        <p>Copyright © 2022 Ipson Viagens | Todos direitos reservados.</p>
+      </section>
+    </footer>
+  </body>
+  <script>
+    const navbar = document.getElementById("navbar");
+
+    window.addEventListener("scroll", (event) => {
+      let scroll = this.scrollY;
+      if (scroll > 200 && navbar.style.background !== "var(--gray-color)") {
+        navbar.style.background = "var(--gray-color)";
+      } else if (
+        scroll < 100 &&
+        navbar.style.background !==
+          "linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%)"
+      ) {
+        navbar.style.background =
+          "linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.3) 100%)";
+      }
+    });
+  </script>
+</html>
