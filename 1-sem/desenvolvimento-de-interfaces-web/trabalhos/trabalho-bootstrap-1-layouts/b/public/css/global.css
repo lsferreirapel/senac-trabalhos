@@ -1,0 +1,21 @@
+main {
+  margin-top: 110px;
+}
+
+.gradient-bg {
+  background: rgb(41, 55, 240);
+  background: linear-gradient(
+    90deg,
+    rgba(41, 55, 240, 1) 0%,
+    rgba(159, 26, 226, 1) 100%
+  );
+}
+
+.bg-image {
+  position: relative;
+  background-image: url("https://i.picsum.photos/id/811/800/800.jpg?hmac=2djLdGsPBKGvBWoRmlkIx7wlBh9wFrBVG9OQbti7OQA");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 200px 0;
+}
