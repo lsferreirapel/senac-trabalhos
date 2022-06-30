@@ -2,6 +2,8 @@
 Repositorio criado para armazenar todos os trabalhos desenvolvidos durante o curso de [Análise e Desenvolvimento de Sistemas](https://www.senacrs.com.br/cursosDetalheTurmas.asp?idCurso=1293&unidade=78)
 ## Table of Contents
 - **1° Semestre**
+  - _Lógica de Programação_  
+    * [crud-bash](https://github.com/lsferreirapel/crud-bash)
   - _Desenvolvimento de interfaces WEB_
     * [Ipson-viagens](https://ipson-viagens.netlify.app/)
   - _User Experience_
